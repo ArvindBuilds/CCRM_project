@@ -357,5 +357,5 @@ Registration Number: 24BCY10382
 
 
 **Project Completed**: September 18, 2026  
-**Academic Session**: Semester 6, Btech CSE ( Cyber security and Digital Forensic )
+**Academic Session**: Semester 6, Btech CSE ( Cyber security and Digital Forensic )  
 **Institution**: Vellore Institute of Technology Bhopal (VITB)
