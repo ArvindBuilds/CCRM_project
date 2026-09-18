@@ -14,6 +14,7 @@
 - [Syllabus Mapping](#syllabus-mapping)
 - [Sample Usage](#sample-usage)
 - [Acknowledgments](#acknowledgments)
+- [Author](#author)
 
 ## Project Overview
 
@@ -99,6 +100,44 @@ javac -version
 4. **Configure Build Path**:
 - Right-click project → Properties → Java Build Path
 - Ensure correct JRE is selected
+
+## project-structure
+```
+CCRM_project-main/
+│
+├── CCRM/
+│   └── src/
+│       ├── edu/
+│       │   └── ccrm/
+│       │       │
+│       │       ├── domain/
+│       │       │   ├── Course.java
+│       │       │   ├── DuplicateEnrollmentException.java
+│       │       │   ├── Grade.java
+│       │       │   ├── MaxCreditLimitExceededException.java
+│       │       │   ├── Person.java
+│       │       │   ├── Semester.java
+│       │       │   └── Student.java
+│       │       │
+│       │       └── service/
+│       │           ├── Persistable.java
+│       │           ├── Searchable.java
+│       │           └── StudentService.java
+│       │
+│       └── module-info.java
+│
+├── Screenshot/
+│   ├── CCRM_addstudent.png
+│   ├── CCRM_structure.jpg
+│   └── version_check.jpg
+│
+├── test_data/
+│   └── students.csv
+│
+├── ProjectReport.pdf
+│
+└── README.md
+```
 
 ## Features
 
@@ -192,7 +231,7 @@ public interface Searchable<T> {
 ### Compilation & Execution
 Clone the repository
 ```bash
-git clone https://github.com/nabakrishna/CCRM
+git clone https://github.com/ArvindBuilds/CCRM_project.git
 ```
 cd CCRM
 
@@ -221,7 +260,7 @@ java -ea -cp src edu.ccrm.cli.CCRMApplication
 
 
 - `CCRM_addstudent.png` - Student operations demo
-- <img width="745" height="865" alt="image" src="https://github.com/nabakrishna/CCRM/blob/main/Screensort/CCRM_addstudent.png" /> 
+- <img width="745" height="865" alt="image" src="Screensort/CCRM_addstudent.png" /> 
 
 
 <!-- <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ebf7d04f-b6a9-4874-8d10-f2967ed9dc34" /> -->
@@ -308,8 +347,15 @@ public class DuplicateEnrollmentException extends RuntimeException {
 - **Stream API**: Java 8 functional programming concepts
 - **NIO.2**: Modern Java I/O best practices
 
----
 
-**Project Completed**: March 31, 2026  
-**Academic Session**: Semester 5, Btech CSE (AI ML)
+
+## Author
+
+Arvind Kumar   
+Registration Number: 24BCY10382
+
+
+
+**Project Completed**: September 18, 2026  
+**Academic Session**: Semester 6, Btech CSE ( Cyber security and Digital Forensic )
 **Institution**: Vellore Institute of Technology Bhopal (VITB)
